@@ -61,7 +61,7 @@ form{
     font-size: 24px;
   }
 }
-@media (-webkit-min-device-pixel-ratio :2), (min-resolution:192dpi){
+@media only screen and (min-resolution: 200dpi){
   #iut{
     content: url("../images/logo-iut.jpg");
     width: 600px;
