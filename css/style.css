@@ -51,14 +51,14 @@ form{
 }
 .formulaire input{
 
-  font-size: 16px;
+  font-size: 1.6rem;
   border-bottom: 1px solid grey;
 }
 
 @media all and (max-width: 500px){
   p{
     padding: 4px;
-    font-size: 24px;
+    font-size: 2.4rem;
   }
 }
 @media only screen and (min-resolution: 200dpi){
