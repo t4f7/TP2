@@ -3,11 +3,18 @@
   padding: 0;
 }
 
+html{
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+}
+
 body{
   font-family: sans-serif;
+  color: white;
   margin-left: 3%;
   margin-right: 3%;
   font-size: 1.6rem;
+  background-color: rgba(100,100,100,0.3);
 }
 
 p{
@@ -26,18 +33,6 @@ h1{
   margin: 0 auto 0 auto;
 }
 
-#first{
-  margin-top: 10px;
-  background-color: blue;
-}
-
-#second{
-  background-color: white;
-}
-
-#third{
-  background-color: red;
-}
 
 img{
   margin-left: auto;
