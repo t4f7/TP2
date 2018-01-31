@@ -7,11 +7,17 @@ body{
   font-family: sans-serif;
   margin-left: 3%;
   margin-right: 3%;
+  font-size: 1.6rem;
 }
 
 p{
   text-align: center;
   padding: 4px;
+}
+
+h1{
+  font-size: 8vw;
+  text-align: center;
 }
 
 #iut{
@@ -45,26 +51,39 @@ img{
 
 form{
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: block;
 }
-.formulaire input{
-
-  font-size: 1.6rem;
+form input{
+  width: 50%;
+  font-size: 1rem;
   border-bottom: 1px solid grey;
 }
+
+
 
 @media all and (max-width: 500px){
   p{
     padding: 4px;
-    font-size: 2.4rem;
+    font-size:1.65rem;
   }
+
+  form input{
+    width: 100%;
+  }
+
 }
-@media only screen and (min-resolution: 200dpi){
+
+
+@media only screen and (-webkit-device-pixel-ratio:2){
   #iut{
-    content: url("../images/logo-iut.jpg");
-    width: 600px;
+    content: url("../images/logo-iut-hq.jpg");
+    width: 300px;
     margin: 0 auto 0 auto;
+  }
+
+  .formulaire input{
+    font-size: 2rem;
   }
 }
