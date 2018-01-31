@@ -42,7 +42,8 @@ h1{
 img{
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 0 10px 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
   align-content: center;
   display: block;
   width: 100%;
@@ -51,17 +52,54 @@ img{
 
 form{
   text-align: center;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin:auto;
   display: block;
+  min-width: 450px;
+  max-width: 500px;
 }
 form input{
-  width: 50%;
+  width: 100%;
   font-size: 1rem;
   border-bottom: 1px solid grey;
 }
 
 
+table{
+  font-size: 0.7em;
+  border-collapse: collapse;
+
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+th{
+  background-color: grey;
+}
+
+td,th{
+  border: 1px solid black;
+}
+
+@media all and (max-width: 900px){
+  td,th{
+    display: block;
+  }
+  td,th,table{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+  }
+
+  th,td{
+    border: 0 none;
+    text-align: center;
+  }
+
+  table{
+    border: 1px solid black;
+    margin-bottom: 2%;
+  }
+}
 
 @media all and (max-width: 500px){
   p{
@@ -69,21 +107,23 @@ form input{
     font-size:1.65rem;
   }
 
-  form input{
-    width: 100%;
+   form {
+    max-width: 100%;
+    min-width: 0%;
   }
 
 }
 
 
-@media only screen and (-webkit-min-device-pixel-ratio:2){
+
+@media all and (-webkit-min-device-pixel-ratio:2){
   #iut{
     content: url("../images/logo-iut-hq.jpg");
     width: 300px;
     margin: 0 auto 0 auto;
   }
 
-  .formulaire input{
+   .formulaire input{
     font-size: 2rem;
   }
 }
