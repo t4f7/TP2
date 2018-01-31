@@ -55,7 +55,7 @@ form{
 }
 form input{
   width: 100%;
-  font-size: 1rem;
+  font-size: 2rem;
   border-bottom: 1px solid grey;
 }
 
@@ -77,6 +77,10 @@ td,th{
 }
 
 @media all and (max-width: 900px){
+  .formulaire input{
+   font-size: 4vw;
+ }
+
   td,th{
     display: block;
   }
@@ -90,7 +94,6 @@ td,th{
     border: 0 none;
     text-align: center;
   }
-
   table{
     border: 1px solid black;
     margin-bottom: 2%;
@@ -111,7 +114,6 @@ td,th{
 }
 
 
-
 @media all and (-webkit-min-device-pixel-ratio:2){
   #iut{
     content: url("../images/logo-iut-hq.jpg");
@@ -119,7 +121,4 @@ td,th{
     margin: 0 auto 0 auto;
   }
 
-   .formulaire input{
-    font-size: 2rem;
-  }
 }
